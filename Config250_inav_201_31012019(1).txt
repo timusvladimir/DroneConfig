@@ -1,0 +1,100 @@
+# diff
+
+# version
+# INAV/MATEKF405 2.0.1 Oct 31 2018 / 19:24:04 (a04e68aaa)
+
+# resources
+
+# mixer
+mmix 0  1.000 -1.000  1.000 -1.000
+mmix 1  1.000 -1.000 -1.000  1.000
+mmix 2  1.000  1.000  1.000  1.000
+mmix 3  1.000  1.000 -1.000 -1.000
+
+# servo mix
+
+# servo
+
+# feature
+feature SOFTSERIAL
+feature GPS
+feature RSSI_ADC
+feature AIRMODE
+feature PWM_OUTPUT_ENABLE
+
+# beeper
+
+# map
+
+# serial
+serial 3 2 115200 57600 0 115200
+serial 31 32 115200 38400 0 115200
+
+# led
+led 0 0,0::C:10
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1300 2100
+aux 1 1 1 900 2100
+aux 2 3 1 1300 2100
+aux 3 9 1 1775 2100
+aux 4 8 2 1250 2100
+aux 5 11 3 1550 2100
+
+# adjrange
+
+# rxrange
+
+# osd_layout
+
+# master
+set gyro_sync = ON
+set gyro_hardware_lpf = 188HZ
+set gyro_lpf_hz = 90
+set gyro_notch1_hz = 200
+set gyro_notch1_cutoff = 100
+set acc_hardware = MPU6500
+set acczero_x = -28
+set acczero_y = -35
+set acczero_z = 28
+set accgain_x = 4093
+set accgain_y = 4116
+set accgain_z = 4097
+set align_mag = CW270FLIP
+set mag_hardware = QMC5883
+set magzero_x = 266
+set magzero_y = 54
+set magzero_z = -46
+set baro_hardware = BMP280
+set pitot_hardware = NONE
+set min_throttle = 1050
+set motor_pwm_rate = 1000
+set motor_pwm_protocol = ONESHOT125
+set model_preview_type = 3
+set name =
+
+# profile
+profile 1
+
+set mc_p_pitch = 58
+set mc_i_pitch = 50
+set mc_d_pitch = 22
+set mc_p_roll = 43
+set mc_i_roll = 40
+set mc_d_roll = 20
+set mc_p_yaw = 70
+set dterm_lpf_hz = 80
+set dterm_notch_hz = 200
+set dterm_notch_cutoff = 100
+set roll_rate = 50
+set pitch_rate = 50
+set yaw_rate = 45
+
+# battery_profile
+battery_profile 1
+
+set battery_capacity = 1500
